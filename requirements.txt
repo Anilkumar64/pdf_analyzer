@@ -1,0 +1,6 @@
+PyMuPDF>=1.24.0
+torch
+transformers
+sentencepiece
+Pillow
+regex

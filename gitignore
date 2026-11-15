@@ -1,0 +1,59 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Model cache (Hugging Face / transformers)
+.cache/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output / generated PDFs
+*_localized_*.pdf
+output/
+outputs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local config
+.env
+*.local
